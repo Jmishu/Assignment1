@@ -1,0 +1,22 @@
+nav{
+   display:flex;
+   justify-content: space-between;
+   padding: 50px 100px 100px 50px;  
+}
+.btn-design{
+    background-color:white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;   
+}
+.description{
+    background-image: url('../assets/Hero-bg.png');
+    text-align: center;
+}
+.btn2-design{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
