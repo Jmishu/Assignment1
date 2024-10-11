@@ -1,8 +1,18 @@
+.head{
+    font-weight: 400;
+}
 nav{
    display:flex;
    justify-content: space-between;
-   padding: 50px 100px 100px 50px;  
+   padding: 30px ;  
+   margin: 5px 120px;
 }
+/* Shared Part */
+.header-title,.extra-title,.extra-title,.middle-contain{
+    color: dimgrey;
+    font-size: 20px;
+}
+
 .btn-design{
     background-color:white;
     padding: 15px;
@@ -12,6 +22,7 @@ nav{
 .description{
     background-image: url('../assets/Hero-bg.png');
     text-align: center;
+    padding:35px;
 }
 .btn2-design{
     background-color: black;
@@ -20,3 +31,108 @@ nav{
     border-radius: 8px;
     
 }
+.extra-description{
+    text-align: center;
+    padding:80px;
+}
+.middle{
+ display: flex;
+ justify-content: space-between;
+ margin: 5px 380px 45px;
+   
+}
+.middle-description{
+    color: dimgray;
+    font-size: 25px;
+}
+.middle1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 380px 45px;
+      
+   }
+   .middle-part1{
+       color: dimgray;
+       font-size: 20px;
+       margin: 5px 70px;
+   }
+/* shared btn */
+.middle-btn{
+    background-color:white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: darkslategrey;
+}
+.inspiration{
+    padding-top: 20px;
+    text-align: center;
+}
+.inspiration-title{
+    font-size: 20px;
+    color: dimgrey;
+}
+.video-part{
+    padding: 60px 500px;
+    width: 1000;
+    
+}
+.card-description{
+    color: dimgray;
+    font-size: 25px;
+}
+.card-contain{
+    color: black;
+}
+.card{
+    display: flex;
+   justify-content: space-around;
+    margin: 5px 300px 45px;
+    padding: 70px;
+    
+    
+   }
+   .card1{
+    display:block ;
+    background-color:bisque;
+    padding: 50px 30px 10px;
+
+   }
+   .card2{
+    display:block ;
+    background-color:beige;
+    padding: 50px 30px;
+
+   }
+   .card3{
+    display:block ;
+    background-color:bisque;
+    padding: 50px 30px;
+
+   }
+.target{
+    text-align: center;
+}
+.last-card{
+    display: block;
+}
+.card-separate{
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 90px 20px 25px;
+      
+   }
+   .last1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 380px 45px;
+    /* padding: 10px 10px; */
+      
+   }
+   /* .last-part1{
+    margin: 20px 100px 10px 100px;
+   } */
+ 
