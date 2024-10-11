@@ -123,17 +123,17 @@ nav{
     justify-content: space-between;
 }
 .final{
-    display: flex;      
+    /* display: flex;    */
    }
 .last-image{
         display: flex;
         justify-content: space-between;
-        margin: 5px 380px 45px;
+        margin: 5px 350px 45px;
+        border: 2px solid darkslategray;   
+
        }
     .final-pic{
-        width: 90px;
-        height: 70px;
-        padding: 50px;
+        padding: 40px;
     }
    .footer-contain{
     background-image: url(../assets/handshake.jpg);
@@ -145,7 +145,7 @@ nav{
    }
    .footer-font{
     color: white;
-    padding-top: 50px;
+    padding-top: 30px;
    }
    .footer-title{
     color:blanchedalmond;
