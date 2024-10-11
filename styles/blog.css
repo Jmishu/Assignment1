@@ -73,8 +73,10 @@ nav{
     color: dimgrey;
 }
 .video-part{
-    padding: 60px 500px;
-    width: 1000;
+    border: 1px solid dimgrey;
+    padding: 60px 300px;
+    margin-left: 200px;
+    margin-right: 200px;
     
 }
 .card-description{
@@ -122,9 +124,6 @@ nav{
 .card-separate{
     justify-content: space-between;
 }
-.final{
-    /* display: flex;    */
-   }
 .last-image{
         display: flex;
         justify-content: space-between;
@@ -135,34 +134,40 @@ nav{
     .final-pic{
         padding: 40px;
     }
-   .footer-contain{
-    background-image: url(../assets/handshake.jpg);
-    border-radius: 15px;
-    margin-left: 300px;
-    width: 1000px;
-    height: 250px;
-    text-align: center;
-   }
-   .footer-font{
-    color: white;
-    padding-top: 30px;
-   }
-   .footer-title{
-    color:blanchedalmond;
-   }
-   .last-section{
-    padding: 30px;
-    
-   }
-   .result{
-    background-color:aliceblue;
-   }
+    .footer-contain{
+        background-image: url(../assets/handshake.jpg);
+        text-align: center;
+        height: 250px;
+        width: 950px;
+        margin-left: 300px;
+    }
+    .result textarea{
+        width:350px;
+        text-align: center;
+        height: 35px;
+        padding-top: 13px;
+    }
+    .last-btn{
+        width:150px;
+        height: 35px;
+        background-color: white;
+        color: black;
+    }
+    .footer-font{
+        color: white;
+        padding-top: 30px;
+       }
+       .footer-title{
+        color:blanchedalmond;
+       } 
    .last-section{
     display: flex;
-    margin: 20px 270px  50px;
+    margin: 20px 290px 20px ;
+    justify-content: space-between;
+    background-color:aliceblue;
    }
    .social{
-    margin-left: 450px;
+    margin-right: 180px;
    }
   
    
